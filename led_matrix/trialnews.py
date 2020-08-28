@@ -20,7 +20,8 @@ feeds=[
     "http://www.fiercebiotech.com/feed",
     ]
 """
-feeds = ["https://www.espn.com/espn/rss/news"]
+# feeds = ["https://www.espn.com/espn/rss/news"]
+feeds = ["http://www.nba.com/heat/rss.xml"]
 def colorRed():
     return (255, 0, 0)
 
@@ -89,6 +90,9 @@ def writeImage(url, count):
     filename=str(count)+".ppm"
     displayItems.append(filename)
     im.save(filename)
+
+
+#use json for team colors
 
 def run():
     print("News Fetched at {}\n".format(time.ctime()))
