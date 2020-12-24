@@ -47,7 +47,8 @@ def run():
     album = album.resize((32,32))
     album.save("my.ppm")
 
-    os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
+    #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
+    os.system("sudo ./utils/led-image-viewer.cc --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
 
 if __name__ == '__main__':
     run()
