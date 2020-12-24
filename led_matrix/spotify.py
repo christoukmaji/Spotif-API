@@ -22,7 +22,7 @@ def run():
     headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer BQAWeI420imwHnn50IRxmUz5k69u836u9DqQRMVOtNz5GV9SAfMnD3bjTTFdKBVTKIk9PFP4sGsJDIbUMbAsvPjF5U3SO0U_56lLtC2YQ4tPEIRGFRsjI9Nd4iDLPt54GRzdnDT4cJuKTwm9t9QkWA'
+        'Authorization': 'Bearer BQCJ8-sLk8pbLU55n7j1shA72SgdU4kX61ua2LP5uJ5pJUtMMA1w0pnw2d30yW2NNl5paencf_xztkY7LsXbbKX-MdkY0rcIIPon4PRzzQOcHUaNyQ94-g8PzDZKuCRojszK3edDm7_mneCzfVfx4A'
     }
 
     params = (
@@ -48,7 +48,7 @@ def run():
     album.save("my.ppm")
 
     #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
-    os.system("sudo ./utils/led-image-viewer my.ppm -c --led-cols=64 --led-rows=32")
+    os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32")
 
 if __name__ == '__main__':
     run()
