@@ -4,6 +4,7 @@ import requests
 import json
 from PIL import Image, ImageFont, ImageDraw
 from urllib.request import urlretrieve
+import subprocess
 
 BITLY_ACCESS_TOKEN="BITLY_ACCESS_TOKEN"
 items=[]
@@ -48,7 +49,9 @@ def run():
         album.save("my.ppm")
 
         #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
-        os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32")
+
+        #os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32")
+        subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
 
 if __name__ == '__main__':
     run()
