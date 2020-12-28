@@ -18,12 +18,13 @@ def showOnLEDDisplay():
         #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 "+disp)
 
 def run():
+    link_temp = ""
     while True:
         response = requests.get("https://api.spotify.com/v1/me/player/currently-playing")
         headers = {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer BQC4JR_w9UAGMcRVWF1zfqdbP2w5q6a8vg94BntaiGIswAVwCtw8uGrBUkHkqw3xbhXQe8B-d9uMSAe10JXO9qv4JlHn_3oB_HBEyWkntFDudrkFniYkrrAwtLPmyqCTN56QyKLCPEwia4YAlx0U8Q'
+            'Authorization': 'Bearer BQDITRkU-rKxW6jNvrZbRO6XbhzZ5aS7W7AqR13uUdcFs-cXicEdJBgArv2Bf590EC1BJ1fP6baHAPtyFjp9uIwyBSvb8T34T16ghrljft3r1OnNnoS6_SQaMhv0LrQJGFXhGbzxLDyGnaz9UlsqZA'
         }
 
         params = (
@@ -50,8 +51,17 @@ def run():
 
         #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
 
-        #os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32")
-        subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
+        os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32 --led-brightness=50")
+
+       # subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
+
+        #if link changes
+        #if link_temp == link:
+            #pass
+        #else:
+            #link_temp = link
+            #subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
+            #kill
 
 if __name__ == '__main__':
     run()
