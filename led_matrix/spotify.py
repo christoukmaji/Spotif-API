@@ -24,7 +24,7 @@ def run():
         headers = {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer BQDITRkU-rKxW6jNvrZbRO6XbhzZ5aS7W7AqR13uUdcFs-cXicEdJBgArv2Bf590EC1BJ1fP6baHAPtyFjp9uIwyBSvb8T34T16ghrljft3r1OnNnoS6_SQaMhv0LrQJGFXhGbzxLDyGnaz9UlsqZA'
+            'Authorization': 'Bearer BQBwaT5baICyAFDOQQ8yGlr_OH4fpFC_OZ4KN228jrIAMf9d8UGRSxmPRTozAVPzM12YSMAlqT-_jNXVtdDqbARdKUn6OMkTTCZgn4TN90sKrHCU4ONidWmfpNA9RzvgLFx9ohKiMsaLnhF4YN-Ezw'
         }
 
         params = (
@@ -51,7 +51,7 @@ def run():
 
         #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
 
-        os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32 --led-brightness=50")
+        os.system("sudo ./demo -D 6 --led-cols=64 --led-rows=32 --led-brightness=50 --led-slowdown-gpio=0 --led-chain=2 --led-pixel-mapper='U-mapper'")
 
        # subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
 
