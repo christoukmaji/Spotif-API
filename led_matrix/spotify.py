@@ -51,7 +51,7 @@ def run():
 
         #os.system("sudo ./examples-api-use/demo --led-cols=64 --led-rows=32 --led-chain=1 -t 60 -m 25 -D 1 " + "my.ppm")
 
-        os.system("sudo ./demo -D 6 --led-cols=64 --led-rows=32 --led-brightness=50 --led-slowdown-gpio=0 --led-chain=2 --led-pixel-mapper='U-mapper'")
+        os.system("sudo ./utils/led-image-viewer my.ppm -C --led-cols=64 --led-rows=32 --led-brightness=50 --led-slowdown-gpio=0 --led-chain=2 --led-pixel-mapper='U-mapper'")
 
        # subprocess.call(["sudo", "./utils/led-image-viewer", "my.ppm", "-C", "--led-cols=64", "--led-rows=32"])
 
