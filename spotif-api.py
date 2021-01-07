@@ -17,7 +17,7 @@ def run():
         headers = {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': OAuth_Key'
+            'Authorization': OAuth_Key
         }
 
         params = (
