@@ -1,4 +1,4 @@
-# Scoreboard README  #
+#  Spotif-API README  #
 ## Chris Toukmaji | christoukmaji@gmail.com ##
 
 ### Using Program
