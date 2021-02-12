@@ -3,7 +3,7 @@
 
 ### 
 
-![alt text](https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg?raw=true)
+![alt text](https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg?raw=true){:height="36px" width="36px"}
 
 ### Using Program
 
