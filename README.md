@@ -3,7 +3,8 @@
 
 ### 
 
-![alt text](https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg?raw=true){:height="36px" width="36px"}
+<img src="https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg" width="64" height="64" title="Hardware">
+
 
 ### Using Program
 
