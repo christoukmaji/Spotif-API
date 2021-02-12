@@ -1,6 +1,10 @@
 #  Spotif-API README  #
 ## Chris Toukmaji | christoukmaji@gmail.com ##
 
+### 
+
+![alt text](https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg?raw=true)
+
 ### Using Program
 
 This program is customized for a U-chained two (64 x 32) LED matrix forming a 64 x 64 panel. However, these parameters can be changed by changing the `--led-cols` and `--led-rows` flags (or whichever flags you would be changing) in the sudo command to the operating system in the `spotif-api.py` file. 
