@@ -5,7 +5,6 @@
 
 <img src="https://github.com/christoukmaji/Spotif-API/blob/master/RPIcircuits.jpg" width="256" title="Hardware">
 <img src="https://github.com/christoukmaji/Spotif-API/blob/master/RPIcloseup.jpg" width="256" title="Closeup">
-<img src="https://github.com/christoukmaji/Spotif-API/blob/master/RPIex.jpg" width="256"  title="Example 1">
 <img src="https://github.com/christoukmaji/Spotif-API/blob/master/RPIex2.jpg" width="256"  title="Example 2">
 
 
