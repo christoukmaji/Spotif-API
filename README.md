@@ -55,5 +55,5 @@ I am currently working on a voice interface that allows the user to control the 
 
 ### Behind The Scenes
 
-This project initially started out as a scrolling news ticker, like something that would be shown at the bottom of your local news channel. I tailored the news to my interests so that I would only be seeing the news that was relevant to me. I then transitioned into making a stock ticker, then a weather ticker, and now, this. I am looking forward to the day when I can incorporate all four projects within one, and develop my own AI digital assistant. 
+This project initially started out as a scrolling news ticker, like something that would be shown at the bottom of your local news channel. I tailored the news to my interests so that I would only be seeing the news that was relevant to me. I then transitioned into making a stock ticker, then a weather ticker, and now, this. I am looking forward to the day when I can incorporate all four projects within one, and develop my own digital assistant. 
 
